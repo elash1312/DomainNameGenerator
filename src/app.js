@@ -2,12 +2,12 @@
 import "bootstrap";
 import "./style.css";
 
-window.onload = function() {
+window.onload = () => {
   let domainName = [];
-  let pronoun = ["the", "A"];
+  let pronoun = ["the", "a", "one"];
   let adj = ["gigantic", "hysterical", "happy", "professional"];
-  let noun = ["homechef", "crybaby", "blogger", "programmer"];
-  let domain = [".com", ".net", ".io"];
+  let noun = ["homechef", "skater", "blogger", "programmer"];
+  let domain = [".com", ".net"];
 
   for (let i = 0; i < pronoun.length; i++) {
     for (let j = 0; j < adj.length; j++) {

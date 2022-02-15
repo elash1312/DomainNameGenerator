@@ -1,6 +1,8 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-.bottom-text {
+.p-4 {
+  display: block;
+  margin-bottom: 0;
+  padding-bottom: 5px;
   text-align: center;
-  padding-bottom: 25px;
 }
