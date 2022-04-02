@@ -21,7 +21,7 @@ window.onload = () => {
   console.log(domainName);
   document.getElementById("domain.results").innerHTML = domainName
     .map((item, index) => {
-      return "<div class='domain>" + item + "</div>";
+      return "<div class= domainName>" + item + "</div>";
     })
     .join("");
 };
