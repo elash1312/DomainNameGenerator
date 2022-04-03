@@ -5,7 +5,7 @@ import "./style.css";
 window.onload = () => {
   let domainName = [];
   let pronoun = ["the", "a", "one"];
-  let adj = ["hyphy", "happy", "professional"];
+  let adj = ["hyphy", "curious", "determined"];
   let noun = ["homechef", "skater", "homesteader", "programmer"];
   let domain = [".com", ".net"];
 

@@ -8,8 +8,11 @@ body {
   );
 }
 .p-4 {
-  display: block;
+  display: inline-flexbox;
   margin-bottom: 0;
   padding-bottom: 5px;
   text-align: center;
+}
+.domainhome {
+  padding-top: 30px !important;
 }
